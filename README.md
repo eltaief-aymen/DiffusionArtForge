@@ -19,28 +19,8 @@ It enables you to generate **high-quality AI images** from text prompts using **
 
 ---
 
-## 📦 Installation
 Make sure you have Python 3.9+ installed, then run:
 
 ```bash
 pip install diffusers transformers accelerate torch torchvision safetensors
 
----
-
-## ⚙️ Usage
-
-### 1. Clone this repo
-```bash
-git clone https://github.com/eltaief-aymen/DiffusionArtForge.git
-cd DiffusionArtForge
-
----
-
-### 2. Run the script
-```bash
-python generate.py --prompt "A cyberpunk cityscape at night, neon lights, cinematic" \
-                   --negative "blurry, lowres, watermark, text" \
-                   --steps 30 \
-                   --guidance 8.0 \
-                   --seed 123 \
-                   --output cyberpunk.png
