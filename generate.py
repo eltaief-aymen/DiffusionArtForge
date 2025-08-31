@@ -50,7 +50,7 @@ else:
 # ==============================
 # 4. PROMPT DEFINITION
 # ==============================
-prompt = "ultra-detailed portrait of a red fox wearing a tiny scarf, cinematic lighting, 35mm"
+prompt = "ultra-detailed portrait of a white wolf wearing a tiny red scarf, cinematic lighting, 35mm"
 negative_prompt = "blurry, lowres, jpeg artifacts, extra fingers, text, watermark"
 
 # ==============================
