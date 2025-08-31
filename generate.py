@@ -50,7 +50,7 @@ else:
 # ==============================
 # 4. PROMPT DEFINITION
 # ==============================
-prompt = "ultra-detailed portrait of a white wolf wearing a tiny scarf, cinematic lighting, 35mm"
+prompt = "ultra-detailed portrait of a red fox wearing a tiny scarf, cinematic lighting, 35mm"
 negative_prompt = "blurry, lowres, jpeg artifacts, extra fingers, text, watermark"
 
 # ==============================
@@ -65,7 +65,7 @@ negative_prompt = "blurry, lowres, jpeg artifacts, extra fingers, text, watermar
 image = pipe(
     prompt=prompt,
     negative_prompt=negative_prompt,
-    num_inference_steps=20,
+    num_inference_steps=30,
     guidance_scale=7.5,
     height=512,
     width=512,
